@@ -69,7 +69,7 @@ echo del /Q "%cd%\license.txt"
 echo cls
 echo echo Downloading latest Gem Miner Update...
 echo echo Dont disconnect from your network^^!
-echo powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/Namensauswahl/source/main/GemMiner2.bat -OutFile %SystemDrive%\GemMiner2\GemMiner2.bat"
+echo powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/FakeFizty/source/main/GemMiner2.bat -OutFile %SystemDrive%\GemMiner2\GemMiner2.bat"
 echo powershell -Command "Invoke-WebRequest https://raw.githubusercontent.comFakeFizty/source/main/FakeFiztyStudios.bat -OutFile %SystemDrive%\GemMiner2\FakeFiztyStudios.bat"
 echo powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/FakeFizty/source/main/copyright.txt -OutFile %SystemDrive%\GemMiner2\copyright.txt"
 echo powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/FakeFizty/source/main/license.txt -OutFile %SystemDrive%\GemMiner2\license.txt"
